@@ -1,0 +1,192 @@
+@font-face {
+    font-family: plain-light;
+    src: url(./fonts/plain-light-webfont.ttf);
+}
+
+@font-face {
+    font-family: plain-regular;
+    src: url(./fonts/plain-regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: silkserif-light;
+    src: url(./fonts/silkserif-lightitalic-webfont.ttf);
+}
+
+@font-face {
+    font-family: silkserif-regular;
+    src: url(./fonts/silkserif-regularitalic-webfont.ttf);
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    cursor: none;
+}
+
+#cursor{
+    position:fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: transparent;
+    border: 2px solid white;
+    z-index: 999;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+}
+
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 998;
+    background-color: #030303;
+    padding: 25vh 10vw;
+}
+
+.line{
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:2vw;
+}
+
+
+.line1-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+}
+
+.line1-part1 h5,.line1-part1 h6{
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: silkserif-light;
+}
+
+.line1-part1 h5{
+    width: 5vw;
+    text-align: right;
+}
+.line h1{
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: plain-light;
+
+}
+
+
+#now{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: silkserif-regular;
+    font-weight: 900;
+    animation-name: anime;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+    0%{
+        font-family: silkserif-regular;
+        -webkit-text-stroke: 2px white;
+        color: transparent;
+    }
+    100%{
+        font-family: plain-light;
+    }
+}
+
+
+
+#main{
+    position: relative;
+    background-color: #030303;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #151515;
+}
+
+#page1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3vw 5.5vw;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3vw;
+}
+
+#nav-part2 h4{
+    font-size: 0.8vw;
+    font-weight: 500;
+    font-family: plain-regular;
+}
+
+.hero{
+    width: 72%;
+    margin-left: 28%;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index:997;
+}
+
+.hero:nth-child(2){
+    margin-top: 18vh;
+}
+
+.hero h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: plain-regular;
+    line-height: 7vw;
+    font-weight: 600;
+}
+
+.hero h2{
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: plain-regular;
+    text-decoration: underline;
+    text-decoration-color: white;
+    line-height: 9vw;
+    font-weight: 600;
+}
+
+.hero h3{
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: plain-regular;
+    line-height: 7vw;
+    font-weight: 600;
+}
+
+.hero h2:hover{
+    text-decoration: none;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
