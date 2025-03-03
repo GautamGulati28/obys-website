@@ -241,4 +241,97 @@ html,body{
     font-size: 2vw;
 }
 
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
 
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+    padding-top: 5vh;
+}
+
+#page4-content{
+    width: 72vw;
+    margin-left: 28vw;
+    font-family: plain-regular;
+}
+
+#page4-content h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+
+}
+
+#page4-content .underline{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin:5vw 0;
+}
+
+#page4-content>p{
+    font-size: 2.05vw;
+    width: 50%;
+    margin-bottom: 3vw;
+}
+
+#page4-flex{
+    display: flex;
+    gap:2vw;
+}
+
+#page4-flex img{
+    width: 48%;
+}
+
+#page4-flex p{
+    font-size: 0.9vw;
+    width: 20%;
+}
+
+#page4-blue{
+    background-color: #3f7df4;
+    width: 33vw;
+    padding: 3vw;
+    position: relative;
+    margin-top: -35vh;
+    margin-left: 26vw;
+}
+
+.blue-div-elem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5vw 0;
+    border-bottom: 2px solid #ffffff94;
+}
+
+.blue-div-elem h4{
+    font-size: 1.35vw;
+    font-weight: 500;
+}
+
+.blue-div-elem p{
+    width: 50%;
+    font-size: 0.7vw;
+    justify-content: center;
+}
+
+#page4-content .underline2{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin-top:1vw;
+}
+
+#work{
+    margin-top: 2vh;
+    padding: 0;
+    font-size: 1vw !important;
+}
