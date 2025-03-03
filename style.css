@@ -31,19 +31,17 @@ html,body{
     height: 100%;
     width: 100%;
     /* cursor: none; */
+    overflow: hidden;
 }
 
-#cursor{
-    position:fixed;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    color: transparent;
-    border: 2px solid white;
-    z-index: 999;
+.mousefollower {
+    border: 10px solid #fff;
+    background-color: rgb(255, 255, 255);
+    scale: 2;
     mix-blend-mode: difference;
-    transform: translate(-50%,-50%);
 }
+
+
 
 #loader{
     height: 100%;
