@@ -8,7 +8,7 @@ function cursor(){
         })
     })
 
-    Shery.makeMagnet("#nav-part2 h4" , {
+    Shery.makeMagnet("#nav-part2 h4,#footer-div h5,#footer a" , {
         ease: "cubic-bezier(0.23, 1, 0.320, 1)",
         duration: 1,
       });
@@ -67,9 +67,10 @@ function loadingAnimation(){
         opacity:0,
     })
 
-    tl.from("#hero1 h1,#hero2 h1,#hero3 h2,#hero3 h3,#hero4 h1",{
+    tl.from("#num,#hero1 h1,#hero2 h1,#hero3 h2,#hero3 h3,#hero4 h1",{
         y:160,
         stagger:0.1,
+        opacity:0
     })
 }
 loadingAnimation();
