@@ -275,6 +275,8 @@ html,body{
 
 #page4-content h1{
     font-size: 7vw;
+    font-family: plain-light;
+    font-weight: 300;
     text-transform: uppercase;
 
 }
@@ -299,6 +301,8 @@ html,body{
 #page4-content>p{
     font-size: 2.05vw;
     width: 50%;
+    font-family: plain-light;
+    font-weight: 100;
     /* margin-bottom: 3vw; */
 }
 
