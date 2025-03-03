@@ -30,7 +30,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    cursor: none;
+    /* cursor: none; */
 }
 
 #cursor{
@@ -278,12 +278,13 @@ html,body{
 #page4-content>p{
     font-size: 2.05vw;
     width: 50%;
-    margin-bottom: 3vw;
+    /* margin-bottom: 3vw; */
 }
 
 #page4-flex{
     display: flex;
     gap:2vw;
+    margin-top: 3vw;
 }
 
 #page4-flex img{
@@ -335,3 +336,87 @@ html,body{
     padding: 0;
     font-size: 1vw !important;
 }
+
+#page5{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #151515;
+    padding: 5vw 0;
+    position: relative;
+}
+
+.elem{
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: 0vw;
+}
+
+.elem h1{
+    font-size: 7vw;
+    -webkit-text-stroke: 1px white;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: transparent;
+    display: inline-block;
+    margin-right: 16px;
+    animation-name: scroll;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.elem span{
+    font-family: silkserif-regular;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.elem2{
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: 0vw;
+}
+
+.elem2 h1{
+    font-size: 7vw;
+    -webkit-text-stroke: 1px white;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: transparent;
+    display: inline-block;
+    margin-right: 16px;
+    animation-name: scroll2;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.elem2 span{
+    font-family: silkserif-regular;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+@keyframes scroll2 {
+    from{
+        transform: translateX(-100%);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+
