@@ -110,9 +110,19 @@ function loadingAnimation(){
         stagger:0.1,
         opacity:0
     })
+
+    tl.to("#main",{
+        backgroundColor: '#151515',
+    })
 }
 loadingAnimation();
-cursor();
+// cursor();
 locomotiveAnimation();
 
+function imageanimations(){
+    Shery.imageEffect(".image-div", {
+        style: 6,
+        debug: true,
+      });
+}
 

@@ -10,7 +10,7 @@
     <!-- locomotive css  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <!-- shery css  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aayushchouhan24/sheryjs@main/dist/Shery.css" />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <!-- remixicon cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- css file  -->
@@ -98,7 +98,7 @@
             </div>
             
         </div>
-        <div id="page2" data-scroll data-scroll-speed="-2">
+        <div id="page2" data-scroll data-scroll-speed="-2.5">
             <div id="video-container">
                 <div id="video-cursor">
                     <i class="ri-play-fill"></i>
@@ -112,10 +112,16 @@
 
 
 
-        <div id="page3" data-scroll>
+        <div id="page3" data-scroll data-scroll-speed="-2.5">
                 <h1>Our Projects</h1>
                 <div class="underline">
-
+                
+                </div>
+                <div id="image-div-container">
+                    <div class="image-div">
+                        <img src="./assets/img1-1.jpg" alt="">
+                        <img src="./assets/img1-2.jpg" alt="">
+                    </div>
                 </div>
         </div>
 
@@ -126,7 +132,7 @@
 
 
 
-        <div id="page4" data-scroll>
+        <div id="page4" data-scroll data-scroll-speed="0">
             <div id="page4-content">
                 <h1>About Obys</h1>
                 <div class="underline">
@@ -174,7 +180,7 @@
             </div>
         </div>
 
-        <div id="page5" data-scroll>
+        <div id="page5" data-scroll data-scroll-speed="0">
             <div class="elem">
                 <h1>sport — <span>technology</span> — fashion — </h1>
                 <h1>sport — <span>technology</span> — fashion — </h1>
@@ -193,7 +199,7 @@
             </div>
         </div>
 
-        <div id="footer" data-scroll>
+        <div id="footer" data-scroll data-scroll-speed="0">
             <h1>Let's Create</h1>
             <div class="underline"></div>
             <div id="footer-div">
@@ -227,26 +233,20 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 
-    <!-- gsap cdn  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
-        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        
-    <!-- scrolltrigger cdn  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
-        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
-    <!-- Three JS cdn  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.172.0/three.tsl.js" integrity="sha512-PiFiRajtnAStBKn2yo9z+RO3RJ6/Njc4l2KhPRuJ3jQ3J8aro4NRQpoGVNDOJNQ6Iuzou85TWxN2QGNDUyj6wA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script> -->
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-    <!-- controlKit for debugging -->
-    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
 
     <!-- Shery JS cdn  -->
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/gh/aayushchouhan24/sheryjs@main/dist/Shery.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
 
     <!-- JavaScript file  -->
     <script src="script.js"></script>

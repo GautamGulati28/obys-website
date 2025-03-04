@@ -27,6 +27,8 @@
     color: white;
 }
 
+
+
 html,body{
     height: 100%;
     width: 100%;
@@ -210,6 +212,7 @@ html,body{
     background-color: #151515;
     padding-top: 17vh;
     position: relative;
+    margin-top: 5vh;
 }
 
 
@@ -259,7 +262,8 @@ html,body{
     width: 100%;
     background-color: #151515;
     position: relative;
-    padding: 7vh 0;
+    padding: 7vh 2vw;
+    margin-bottom: 20vh;
 }
 
 #page3 h1{
@@ -289,6 +293,34 @@ html,body{
     margin:5vw 0;
     margin-left: 28vw;
 }
+
+#image-div-container{
+    padding: 1vw;
+    position: relative;
+    background-color: red;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.image-div{
+    height: 33vw;
+    width: 24vw;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: blue;
+}
+
+.image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 
 
 #page4{
@@ -401,6 +433,7 @@ html,body{
     background-color: #151515;
     padding: 5vw 0;
     position: relative;
+    margin-top: 40vh;
 }
 
 .elem{
@@ -418,7 +451,7 @@ html,body{
     display: inline-block;
     margin-right: 16px;
     animation-name: scroll;
-    animation-duration: 20s;
+    animation-duration: 25s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 
@@ -490,6 +523,7 @@ html,body{
     width: 60vw;
     font-family: plain-regular;
     text-transform: uppercase;
+    margin-top: 10vh;
 }
 
 #footer h1::before{
@@ -539,5 +573,9 @@ html,body{
     padding-bottom: 5vh;
 }
 
+._canvas_container{
+    z-index: 999999 !important;
+    pointer-events: none;
+}
 
 
