@@ -117,7 +117,7 @@ html,body{
 }
 
 #page1{
-    height: 100vh;
+    min-height: 110vh;
     width: 100%;
     background-color: #151515;
 }
@@ -200,6 +200,10 @@ html,body{
     color: transparent;
 }
 
+/* #hero4{
+    padding-bottom: 10vh;
+} */
+
 #page2{
     height: 100vh;
     width: 100%;
@@ -253,9 +257,39 @@ html,body{
 #page3{
     min-height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #151515;
     position: relative;
+    padding: 7vh 0;
 }
+
+#page3 h1{
+    font-size: 7vw;
+    font-family: plain-light;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 28vw;
+
+
+}
+
+#page3 h1::before{
+    content: "02";
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: silkserif-light;
+    padding-top: 2vh;
+    left: 22%;
+}
+
+#page3 .underline{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin:5vw 0;
+    margin-left: 28vw;
+}
+
 
 #page4{
     min-height: 100vh;
