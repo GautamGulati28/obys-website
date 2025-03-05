@@ -235,3 +235,5 @@ const locoScroll = new LocomotiveScroll({
   }
 
   flagAnimation();
+
+  
