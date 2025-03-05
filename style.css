@@ -232,6 +232,7 @@ body {
     padding-top: 17vh;
     position: relative;
     margin-top: 5vh;
+    margin-bottom: 20vh;
 }
 
 
@@ -431,6 +432,7 @@ body {
     background-color: #151515;
     position: relative;
     padding-top: 5vh;
+    margin-top: 50vh;
 }
 
 #page4-content {
@@ -618,6 +620,7 @@ body {
     background-color: #151515;
     position: relative;
     padding-left: 28vw;
+    margin-bottom: 20vh;
 }
 
 #footer h1 {
