@@ -137,7 +137,7 @@ function loadingAnimation() {
     });
 
     tl.from("#page1", {
-        delay: 0.2,
+        delay: 0.1,
         y: 3600,
         opacity: 0,
         duration: 0.5,
@@ -152,14 +152,14 @@ function loadingAnimation() {
         opacity: 0,
     });
 
-    tl.from("#num,#hero1 h1,#hero2 h1,#hero3 h2,#hero3 h3,#hero4 h1", {
+    tl.from("#num,#hero1 h1,#hero2 h1,#hero3 h2,#hero3 h3,#hero4 h1,#video-container", {
         y: 160,
         stagger: 0.1,
         opacity: 0,
     });
 
     tl.to("#main", {
-        backgroundColor: "#151515",
+        backgroundColor: "#1f1c2c",
     });
 }
 loadingAnimation();
