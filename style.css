@@ -859,7 +859,7 @@ body {
         padding-top: 10vh;
         position: relative;
         /* margin-top: 5vh; */
-        margin-bottom: 20vh;
+        margin-bottom: 90vh;
     }
     
     
@@ -889,8 +889,10 @@ body {
         width: 100%;
         background-color: #1f1c2c;
         position: relative;
-        padding: 7vh 2vw;
+        padding: 0;
         margin-bottom: 0vh;
+        padding: 0 2vw 0 2vw;
+
     }
     
     #page3 h1 {
@@ -898,7 +900,7 @@ body {
         font-family: plain-light;
         font-weight: 300;
         text-transform: uppercase;
-        margin-left: 2vw;
+        margin-left: 0vw;
     
     }
     
@@ -910,19 +912,21 @@ body {
         font-family: silkserif-light;
         padding-top: 0vh;
         left: 2%;
-        top: 4vh;
+        top: -1%;
     }
     
     #page3 .underline {
         height: 2px;
         width: 100%;
         background-color: #928dab;
-        margin: 2vw 0;
-        margin-left: 2vw;
+        margin: 0vw 0;
+        margin-left: 0vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
     
     #image-div-container {
-        padding: 1vw;
+        padding: 0vw;
         position: relative;
         /* background-color: red; */
         display: flex;
@@ -937,7 +941,7 @@ body {
         width: 100%;
         position: relative;
         overflow: hidden;
-        margin: 2vw;
+        margin: 0vw;
         flex-shrink: 0;
         margin-bottom: 3vw;
         /* background-color: blue; */
@@ -954,6 +958,10 @@ body {
         object-fit: cover;
         object-position: center;
     }
+
+    #img2{
+        display: none;
+    }
     
     .page3-circle1 {
         height: 23vw;
@@ -967,6 +975,7 @@ body {
         margin-left: 10vw;
         position: relative;
         display: none;
+
     
     }
     
@@ -1046,7 +1055,7 @@ body {
         background-color: #1f1c2c;
         position: relative;
         padding-top: 5vh;
-        margin-top: 40vh;
+        margin-top: 10vh;
         margin-bottom: 0vh;
     }
     
